@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Log In</title>
+</head>
+<body>
+<div class="auth">
+  <mat-form-field>
+    <input matInput placeholder = "Enter your email" [formControl]="email" required>
+    <mat-error *ngIf = "email.invalid">{{getErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" required>
+    <mat-icon matSuffix (click) = "hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+  </mat-form-field>
+  <br>
+  <br>
+</div>
+
+</body>
+
+
+
+</html>
+<!-- authentication works -->
