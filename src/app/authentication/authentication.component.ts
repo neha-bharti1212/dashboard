@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, Validators} from '@angular/forms';
+import { FormBuilder, FormControl, Validators, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-authentication',
