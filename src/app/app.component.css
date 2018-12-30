@@ -21,3 +21,10 @@ h1 {
   * {
     font-family: Arial, Helvetica, sans-serif;
   }  
+  .main{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    box-shadow: 3px 4px 8px #b1aeae;
+    padding: 10px;
+  }
